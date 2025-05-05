@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShoesECommerceApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PhoneOPTVerification"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".EmailOTPVerification"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".AddedCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PurchasedSuccessfullActivityScreen"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".OrderHistoryActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".PurchaseProductsActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".SeeProductsActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".SuccessVerifyPhoneNumber"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".VerifyPhoneNumber"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".SuccessVerifyEmailAddress"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".VerifyEmailAddress"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".EditProfileSavePage"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".SignupActivitySuccessful"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".IFForgotSuccess"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".EnterForogtPassword"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/custom_top_bar" />
+        <activity
+            android:name=".WelcomeScreen"
+            android:exported="false"
+            android:theme="@style/custom_splash_screen" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/custom_top_bar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/custom_top_bar" />
+    </application>
+
+</manifest>

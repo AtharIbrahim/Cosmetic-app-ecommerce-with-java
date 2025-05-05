@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="hint">#525252</color>
+    <color name="light_hint">#8F8F8F</color>
+    <color name="light_light_hint">#CDCDCD</color>
+    <color name="transparent">#00FFFFFF</color> <!-- Transparent white -->
+    <color name="Main_2">#24211C</color> <!-- Transparent white -->
+    <color name="Main_3">#FEC3E7</color> <!-- Transparent white -->
+    <color name="Main">#FFE1F3</color> <!-- Transparent white -->
+    <color name="blue">#4A00CD</color> <!-- Transparent white -->
+    <color name="green">#4CAF50</color> <!-- Transparent white -->
+    <color name="light_blue">#2196F3</color> <!-- Transparent white -->
+    <color name="RED">#F44336</color> <!-- Transparent white -->
+</resources>
